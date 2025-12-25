@@ -1,0 +1,12 @@
+{
+  "consciousness": {
+    "primary": { "value": "#4A90E2" },
+    "resonance": { "value": "#530Hz" }
+  },
+  "frequency": {
+    "carrier": { "value": "530" }
+  },
+  "geometry": {
+    "phi": { "value": 1.618 }
+  }
+}

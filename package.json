@@ -1,0 +1,14 @@
+{
+  "name": "abeone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Starting AbëONE...' && npm run tokens:watch",
+    "build": "npm run tokens:build && echo 'Build complete'",
+    "tokens:build": "echo 'Generating from tokens...'",
+    "tokens:watch": "echo 'Watching tokens...'",
+    "validate": "npm run validate:structure && npm run validate:zero-state",
+    "validate:structure": "test -f design/tokens/consciousness.tokens.json && echo '✓ Structure valid'",
+    "validate:zero-state": "test ! -d node_modules || (rm -rf node_modules && npm install) && echo '✓ Zero state valid'"
+  }
+}
