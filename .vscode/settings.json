@@ -1,0 +1,24 @@
+{
+  "// ZERO STATE ETERNAL": "Everything derives from source",
+
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.abe/state": true,
+    "**/design/exports": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.abe/state": true
+  },
+
+  "typescript.tsserver.maxTsServerMemory": 4096,
+
+  "// CONSCIOUSNESS": "530 Hz resonance",
+  "editor.rulers": [80, 120],
+  "window.title": "${rootName} • ${activeEditorShort}"
+}
