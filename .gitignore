@@ -1,0 +1,9 @@
+# DERIVED STATE (always regenerate)
+node_modules/
+.abe/state/
+design/exports/
+*.log
+.DS_Store
+
+# KEEP SOURCE ONLY
+# Everything else is derived
